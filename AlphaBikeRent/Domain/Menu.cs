@@ -37,6 +37,7 @@ namespace AlphaBikeRent.Domain
             {
                 case 1:
                     bike = new RegBike(null, null, null, null, null, 0, 0);
+                    Console.Clear();
                     Console.WriteLine("You have chosen Regularbike!");
                     bike.Register();
                     Confirm();
@@ -48,6 +49,7 @@ namespace AlphaBikeRent.Domain
 
                 case 2:
                     bike = new ElBike(null, null, null, null, null, 0, 0);
+                    Console.Clear();
                     Console.WriteLine("You have chosen Elbike!");
                     bike.Register();
                     Confirm();

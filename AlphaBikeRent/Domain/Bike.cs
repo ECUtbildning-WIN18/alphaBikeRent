@@ -27,8 +27,7 @@ namespace AlphaBikeRent.Domain
 
         public void Register()
         {
-            Console.Clear();
-
+            
             Console.WriteLine("Firstname: ");
             FirstName = Console.ReadLine();
 
